@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.simulate.notification'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-context-support:6.2.0'
+}
+
+test {
+    useJUnitPlatform()
+}
